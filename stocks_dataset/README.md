@@ -1,4 +1,4 @@
-# README: Stock Data Preprocessing and Integration for Time Series Modeling
+# Stock Data Preprocessing
 
 ## Introduction
 
