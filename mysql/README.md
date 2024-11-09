@@ -80,6 +80,6 @@ Consider the following entry for Apple (AAPL) on January 3, 2023:
 
 This schema allows us to store and retrieve stock data based on dates and stock tickers, making it easy to perform historical analysis or comparisons across multiple stocks.
 
-### Basic Data Retrieval
+### Data Retrieval
 
 For querying specific stock data or time ranges, we retrieve records using SQL commands. In our RAG system, user input is dynamically converted into SQL queries to pull relevant historical stock data as needed.
