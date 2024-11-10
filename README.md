@@ -121,9 +121,9 @@ To run the project locally:
 4. **Interact with the System**:
    - Use the interface to select a company, ask questions, and receive stock data and sentiment insights from the RAG pipeline.
 
-<!-- ## Demo Video
+ ## Demo Video
 
-[Watch the Demo Video](path/to/demo_video.mp4) -->
+https://github.com/user-attachments/assets/13cd3ee0-ce64-4fe9-8de3-81e27218de13
 
 
 
