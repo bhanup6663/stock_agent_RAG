@@ -93,7 +93,4 @@ def reset_memory():
     # Clear conversation memory
     conversation_memory.clear()
 
-    # Optional: Reset conversation_chain or other components if needed
-    # For example: conversation_chain.clear() if there's a custom clear method
-
     print("Conversation and memory have been reset.")

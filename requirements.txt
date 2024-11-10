@@ -1,0 +1,23 @@
+# Streamlit for user interface
+streamlit==1.25.0
+streamlit-chat==0.0.2  
+
+# Data processing and manipulation
+pandas==1.5.3
+
+# Database connectors
+pymysql==1.0.2  
+neo4j==5.9.0  
+
+# LangChain for language model and memory handling
+langchain==0.0.208
+
+# NLP components
+nltk==3.8.1 
+vaderSentiment==3.3.2 
+
+# Custom language model API (you mentioned ChatGroq in config.py)
+langchain-groq==0.1.0  
+
+# Other utilities
+python-dotenv==1.0.0 

@@ -18,11 +18,6 @@ selected_company = st.sidebar.selectbox("Select Company", [""] + list(company_na
 if selected_company:
     st.session_state.company_name = selected_company
 
-# # Sidebar buttons for "End Conversation" and "Reset"
-# if st.sidebar.button("End Conversation"):
-#     reset_memory() 
-#     st.session_state.messages = [{"role": "assistant", "content": "Hello! How can I assist you today?"}]
-#     st.experimental_rerun()
 
 if st.sidebar.button("Reset"):
     reset_memory() 
@@ -50,7 +45,6 @@ send_button = st.button("Send")
 
 # Check if user has input a message and clicked the send button
 if send_button and user_input:
-    # Add user's message to session state
     st.session_state.messages.append({"role": "user", "content": user_input})
     message(user_input, is_user=True)  # Display the user message immediately
 
