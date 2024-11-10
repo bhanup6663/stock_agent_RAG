@@ -40,11 +40,10 @@ As this system does not rely on a vector database, custom modules were developed
 
 - **Custom Memory for Company-Specific Data**: A `custom_memory` module tracks company-specific queries and interactions, maintaining focus on the selected company and allowing follow-up questions on the same stock.
 
-## System Architecture
+## System Workflow
 
-![System Architecture](path/to/system_architecture_image.png)
+![System Workflow](image/workflow_uml_flowchart.png)
 
-*(Replace `path/to/system_architecture_image.png` with the actual path to the architecture image)*
 
 ## How the System Works
 
@@ -122,9 +121,9 @@ To run the project locally:
 4. **Interact with the System**:
    - Use the interface to select a company, ask questions, and receive stock data and sentiment insights from the RAG pipeline.
 
-## Demo Video
+<!-- ## Demo Video
 
-[Watch the Demo Video](path/to/demo_video.mp4)
+[Watch the Demo Video](path/to/demo_video.mp4) -->
 
 
 
